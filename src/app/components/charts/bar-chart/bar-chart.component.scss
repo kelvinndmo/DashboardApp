@@ -1,0 +1,186 @@
+.card-area {
+    margin:10px;
+    padding: 10px;
+}
+
+.btnn:link, .btnn:visited {
+    text-decoration: none;
+    padding:5px 20px;
+    border-radius: 10rem; }
+  
+  .btnn--white {
+    background-color: #fff;
+    color: #777;
+    padding: 1rem 3rem;
+    display: inline-block;
+}
+  
+  .btnn:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  
+  .btnn:active {
+    transform: translateY(-1rem); }
+  
+  .btnn:focus {
+    z-index: 1;
+    transform: translateY(-0.2rem);
+    border: 1px solid #603b80; }
+
+.chart-area {
+    margin-top: 30px;
+}
+
+.chart-section{
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.cash-area {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 250px;
+}
+
+.text-analytics {
+    font-size: 24px;
+    margin-left: 6px;
+    font-weight: normal;
+}
+.text-volume {
+    position:absolute;
+    color: #603b80;
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 6%;
+    left: 55%;
+}
+
+.button-dates {
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    color: #603b80;
+    
+}
+
+
+.button-dates-text {
+    color:#603b80;
+    box-shadow: 10px solid white;
+}
+
+.arrow-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #69aeff;
+}
+
+.order-revenue-section {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.order-revenue-section .order-section .orders{
+    &-header{
+        color: #603b80;
+    };
+ 
+    
+}
+
+.bottom-section{
+    position: relative;
+}
+
+.bottom-section .time-since-updated{
+    margin-left: 25px;
+}
+
+.see-all-transcations{
+    position: absolute;
+    right: 1%;
+    top: 0;
+}
+
+.see-all-transcations .all-transcations-text {
+    color: #69aeff;
+}
+
+
+.top-right-buttons{
+    align-content: space-between;
+    position: relative;
+}
+
+.btn-icons{
+    margin-bottom: 20px;
+    &:last-child{
+        margin-right: 10px;
+        position: absolute;
+        right: 5%;
+        display: inline-block;
+    }
+
+    &:first-child {
+        position: absolute;
+        right: 25%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-icons{
+        margin-bottom: 20px;
+        &:last-child{
+            margin-right: 10px;
+            position: absolute;
+            right: 5%;
+            margin-bottom: 20px;
+        }
+    
+        &:first-child {
+            position: absolute;
+            right: 25%;
+        }
+
+    }
+
+    .chart-section {
+        margin-top: 60px;
+        
+    }
+
+    .chart-area {
+        margin-top: 60px;
+    }
+
+    .button-dates{
+        top: 10%;
+    }
+    
+    .see-all-transcations {
+        top: 65%;
+        margin-bottom: 20px;
+    }
+  
+}
+/* for small phones*/
+@media only screen and (max-width: 480px) {
+   
+}
+@media only screen and (max-width: 411px) {
+
+}
+@media only screen and (max-width: 414px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 300px) {
+   
+}

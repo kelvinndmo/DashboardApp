@@ -1,0 +1,86 @@
+<div class="jumbotron jumbotron-fluid mr-4 ml-2">
+    <div class="container">
+        <h6 class="text-analytics mb-0">Settlement</h6>
+        <div class="card card-area">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col col-xs-6">
+                            <a href="#" class="btnn btnn--white btnn--animated">Today</a>
+                        </div>
+                        <div class="col col-xs-6">
+                            <a href="#" class="btnn btnn--white btnn--animated">Last 7 days</a>
+                        </div>
+                        <div class="col col-xs-6">
+                            <a href="#" class="btnn btnn--white btnn--animated">Last 30 Days</a>
+                        </div>
+                        <div class="col col-xs-6">
+                            <a href="#" class="btnn btnn--white btnn--animated">Last 90 days</a>
+                        </div>
+                        <div class="col col-xs-6">
+                            <a href="#" class="btnn btnn--white btnn--animated">Custom</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 top-right-buttons">
+                    <div class="bar-options">
+                        <div>
+                            <button class="btn btn-icons">KES</button>
+                            <button class="btn btn-icons"><i class="fas fa-cloud-download-alt"></i></button>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="chart-section">
+                <div class="cash-area">
+                    <h4>KES 34,500.00 </h4>
+                    <span class="text-volume">Total Volume</span>
+                </div>
+                <div class="button-dates">
+                    <a href="#" class="btnn btnn--white w-background btnn--animated button-dates-text">Jun 2
+                        <i class="fas fa-arrow-right arrow-icon"></i> Jun 8
+                        2018
+                    </a>
+                </div>
+                <div class="chart-area">
+                    <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [xaxis]="chartOptions.xaxis"
+                        [stroke]="chartOptions.stroke" [title]="chartOptions.title"
+                        [plotOptions]="chartOptions.plotOptions"></apx-chart>
+                </div>
+            </div>
+            <div class="order-revenue-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-5 col-xs-3">
+                                <div class="order-section">
+                                    <div class="row"></div>
+                                    <h6 class="orders-header">ACCOUNT BALANCE</h6>
+                                    <h5 class="orders-text">{{ 1999999.99| currency:'KES '  }}</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-xs-3">
+                                <div class="order-section">
+                                    <h6 class="orders-header">AVAILABLE AMOUNT TO SETTLE</h6>
+                                    <h5 class="orders-text">{{ 398009.42 | currency:'KES '  }}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="time-since-updated">
+                    <p class="text-since-updated text-muted">Last updated 5 minutes ago</p>
+                </div>
+                <div class="see-all-transcations">
+                    <h6 class="all-transcations-text">See all transcations &rarr;</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
