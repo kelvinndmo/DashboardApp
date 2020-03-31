@@ -157,12 +157,16 @@
     }
 
     .cash-area .money-text {
-        font-size: 12px;
+        font-size: 15px;
         left: 0;
     }
 
+    .text-volume{
+        left: 45%;
+    }
+
     .button-dates {
-        top: 10%;
+        top: 12%;
         right: 5%;  
     }
     .button-dates-text{
@@ -173,6 +177,24 @@
         top: 70%;
         margin-bottom: 20px;
     }
+
+    .card {
+        margin: 2px;
+    }
+
+    .container {
+        padding:20px 4px;
+        padding-top: 40px;
+        margin: 20px 0px;
+ 
+    }
+
+    .jumbotron{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
 }
 /* for small phones*/
 @media only screen and (max-width: 480px) {
